@@ -1,0 +1,42 @@
+{
+  "running_order": [
+    "homebrew",
+    "*"
+  ],
+  "brew_installs": [
+    "antigen",
+    "git",
+    "node",
+  ],
+  "brew_casks": [
+    "android-file-transfer",
+    "google-chrome",
+    "slack",
+    "spotify",
+    "visual-studio-code",
+    "zoomus",
+    "bettertouchtool",
+    "cyberduck",
+    "DBeaver",
+    "docker",
+    "harvest",
+    "imageoptim",
+    "macpass",
+    "medis",
+    "sourcetree",
+    "sip",
+    "tunnelblick",
+    "vlc",
+    "youtube-to-mp3",
+    "zeplin"
+  ],
+  "osx_script": "osx/set_default.sh",
+  "npm_list": [
+    "create-react-app",
+    "sike",
+    "yarn"
+  ],
+  "code_extensions": [
+    "shan.code-settings-sync"
+  ]
+}
