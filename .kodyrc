@@ -28,7 +28,8 @@
     "tunnelblick",
     "vlc",
     "youtube-to-mp3",
-    "zeplin"
+    "zeplin",
+    "time-out"
   ],
   "osx_script": "osx/set_default.sh",
   "npm_list": [
