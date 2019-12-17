@@ -118,10 +118,8 @@ export YARN_ENABLED=true
 export CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 CPP='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -E'
 
-
 export NVM_DIR="/Users/gvlekke/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
 
 alias http="st /private/etc/apache2/extra/httpd-vhosts.conf"
 alias restarthttp="sudo /usr/sbin/apachectl restart"
@@ -130,26 +128,24 @@ alias chromeUnsafe='open -a Google\ Chrome --args --disable-web-security'
 alias gitRemoveBranches='git branch --merged | grep -v "\*" | grep -v master | grep -v dev | xargs -n 1 git branch -d'
 alias restartCam='sudo killall VDCAssistant; sudo killall AppleCameraAssistant'
 alias nginit="ng new angular --style=sass --directory=. --routing"
-alias knife="/Users/gvlekke/.rbenv/versions/2.3.1/bin/knife"
 alias glenn="yarn"
-alias y="yarn"
 alias sshadd="ssh-add ~/.ssh/id_rsa"
 alias docker-remove='docker rm $(docker ps -aq) --force'
 
-export PATH=$PATH:/Users/gvlekke/Library/Android/sdk/platform-tools/
-export PATH="$HOME/.fastlane/bin:$PATH"
-export PATH=$HOME/.composer/vendor/bin:$PATH
-export PATH=$HOME/flutter/bin:$PATH
-export PATH=$HOME/sping/licommander:$PATH
-export LDFLAGS="-L/usr/local/opt/ruby/lib"
-export CPPFLAGS="-I/usr/local/opt/ruby/include"
-export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+# export PATH=$PATH:/Users/gvlekke/Library/Android/sdk/platform-tools/
+# export PATH="$HOME/.fastlane/bin:$PATH"
+# export PATH=$HOME/.composer/vendor/bin:$PATH
+# export PATH=$HOME/flutter/bin:$PATH
+# export PATH=$HOME/sping/licommander:$PATH
+# export LDFLAGS="-L/usr/local/opt/ruby/lib"
+# export CPPFLAGS="-I/usr/local/opt/ruby/include"
+# export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+# export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
 # mysql
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
-export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
+# export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+# export LDFLAGS="-L/usr/local/opt/mysql@5.7/lib"
+# export CPPFLAGS="-I/usr/local/opt/mysql@5.7/include"
 
 terminate(){
   local port="$1"
@@ -157,17 +153,6 @@ terminate(){
   lsof -P | grep ':'$port | awk '{print $2}' | xargs kill -9
 }
 
-# google cloud
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
-source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
-
-###-tns-completion-start-###
-if [ -f /Users/gvlekke/.tnsrc ]; then 
-    source /Users/gvlekke/.tnsrc 
-fi
-###-tns-completion-end-###
-export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
-
-. $HOME/.asdf/asdf.sh
-
-. $HOME/.asdf/completions/asdf.bash
+# # google cloud
+# source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+# source /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc
