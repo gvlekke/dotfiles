@@ -6,7 +6,10 @@
   "brew_installs": [
     "antigen",
     "git",
-    "node"
+    "node",
+    "gcc",
+    "maven",
+    "asdf"
   ],
   "brew_casks": [
     "android-file-transfer",

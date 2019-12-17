@@ -1,5 +1,3 @@
-echo 'test'
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -66,11 +64,9 @@ plugins=(
 	nvm
 	vscode
 	bundler
-	brew
 	node
 	docker-compose
 	docker-machine
-  zsh-iterm-touchbar
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,19 +100,13 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# eval "$(rbenv init -)"
 
-export CISCOSPARK_CLIENT_ID=C35690d50e348911b0ed333d3bd3120d991abdca8bc7b39ef1074d344ce0fa7b4
-export CISCOSPARK_CLIENT_SECRET=a5ec714889832ca621a0cb53b4b5b559d23fb1aecb2616a016935ecbd890a407
-export CISCOSPARK_REDIRECT_URI=http://localhost:8080/
-export CISCOSPARK_SCOPE=spark:people_read
-export ANDROID_HOME=/Users/gvlekke/Library/Android/sdk
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/
-# export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk-11.0.1.jdk/Contents/Home/
+# export CISCOSPARK_SCOPE=spark:people_read
+# export ANDROID_HOME=/Users/gvlekke/Library/Android/sdk
 export BEHEERPATH=/Users/gvlekke/sping/beheer
 export YARN_ENABLED=true
-export CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
-CPP='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -E'
+# export CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+# CPP='/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -E'
 
 export NVM_DIR="/Users/gvlekke/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

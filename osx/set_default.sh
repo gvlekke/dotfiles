@@ -31,7 +31,7 @@ defaults write com.apple.Safari SuppressSearchSuggestions -bool true
 # defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Set a really fast key repeat.
-defaults write NSGlobalDomain KeyRepeat -int 0
+defaults write NSGlobalDomain KeyRepeat -int 10
 
 # Wipe dock on new setup
 defaults write com.apple.dock persistent-apps -array
