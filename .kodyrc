@@ -6,7 +6,7 @@
   "brew_installs": [
     "antigen",
     "git",
-    "node",
+    "node"
   ],
   "brew_casks": [
     "android-file-transfer",
@@ -17,19 +17,19 @@
     "zoomus",
     "bettertouchtool",
     "cyberduck",
-    "DBeaver",
+    "dbeaver-community",
     "docker",
     "harvest",
     "imageoptim",
     "macpass",
-    "medis",
     "sourcetree",
     "sip",
     "tunnelblick",
     "vlc",
     "youtube-to-mp3",
     "zeplin",
-    "time-out"
+    "time-out",
+    "adoptopenjdk"
   ],
   "osx_script": "osx/set_default.sh",
   "npm_list": [
