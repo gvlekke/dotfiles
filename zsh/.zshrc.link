@@ -100,6 +100,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# https://github.com/asdf-vm/asdf/issues/428
+
+# . $HOME/.asdf/asdf.sh
+# . $HOME/.asdf/completions/asdf.bash	# . $HOME/.asdf/completions/asdf.bash
+source `brew --prefix asdf`/asdf.sh
 
 # export CISCOSPARK_SCOPE=spark:people_read
 # export ANDROID_HOME=/Users/gvlekke/Library/Android/sdk
