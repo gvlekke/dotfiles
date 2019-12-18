@@ -1,6 +1,7 @@
 {
   "running_order": [
     "homebrew",
+    "asdf",
     "*"
   ],
   "brew_installs": [
@@ -9,7 +10,9 @@
     "node",
     "gcc",
     "maven",
-    "asdf"
+    "asdf",
+    "coreutils",
+    "gpg"
   ],
   "brew_casks": [
     "android-file-transfer",
@@ -43,5 +46,19 @@
   ],
   "code_extensions": [
     "shan.code-settings-sync"
+  ],
+  "asdf_plugins": [
+    {
+      "technology": "nodejs",
+      "url": "https://github.com/asdf-vm/asdf-nodejs.git",
+      "versions": [
+        "latest"
+      ]
+    },
+    {
+      "technology": "ruby",
+      "url": "https://github.com/asdf-vm/asdf-ruby.git",
+      "versions": []
+    }
   ]
 }
