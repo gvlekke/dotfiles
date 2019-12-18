@@ -108,6 +108,7 @@ source `brew --prefix asdf`/asdf.sh
 
 # export CISCOSPARK_SCOPE=spark:people_read
 # export ANDROID_HOME=/Users/gvlekke/Library/Android/sdk
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 export BEHEERPATH=/Users/gvlekke/sping/beheer
 export YARN_ENABLED=true
 # export CC=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
@@ -127,11 +128,10 @@ alias glenn="yarn"
 alias sshadd="ssh-add ~/.ssh/id_rsa"
 alias docker-remove='docker rm $(docker ps -aq) --force'
 
-# export PATH=$PATH:/Users/gvlekke/Library/Android/sdk/platform-tools/
+export PATH=$PATH:/Users/gvlekke/Library/Android/sdk/platform-tools/
 # export PATH="$HOME/.fastlane/bin:$PATH"
 # export PATH=$HOME/.composer/vendor/bin:$PATH
 # export PATH=$HOME/flutter/bin:$PATH
-# export PATH=$HOME/sping/licommander:$PATH
 # export LDFLAGS="-L/usr/local/opt/ruby/lib"
 # export CPPFLAGS="-I/usr/local/opt/ruby/include"
 # export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
