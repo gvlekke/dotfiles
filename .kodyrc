@@ -36,7 +36,11 @@
     "youtube-to-mp3",
     "zeplin",
     "time-out",
-    "adoptopenjdk"
+    "adoptopenjdk",
+    "skype",
+    "virtualbox",
+    "vagrant",
+    "vagrant-manager"
   ],
   "osx_script": "osx/set_default.sh",
   "npm_list": [
