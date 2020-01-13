@@ -40,7 +40,9 @@
     "skype",
     "virtualbox",
     "vagrant",
-    "vagrant-manager"
+    "vagrant-manager",
+    "ngrok",
+    "licecap"
   ],
   "osx_script": "osx/set_default.sh",
   "npm_list": [
