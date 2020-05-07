@@ -15,7 +15,6 @@
     "gpg"
   ],
   "brew_casks": [
-    "android-file-transfer",
     "google-chrome",
     "slack",
     "spotify",
@@ -38,7 +37,6 @@
     "time-out",
     "adoptopenjdk",
     "skype",
-    "virtualbox",
     "vagrant",
     "vagrant-manager",
     "ngrok",
