@@ -15,7 +15,6 @@
     "gpg"
   ],
   "brew_casks": [
-    "google-chrome",
     "slack",
     "spotify",
     "visual-studio-code",
@@ -29,7 +28,6 @@
     "imageoptim",
     "macpass",
     "sourcetree",
-    "sip",
     "tunnelblick",
     "vlc",
     "youtube-to-mp3",
@@ -37,8 +35,6 @@
     "time-out",
     "adoptopenjdk",
     "skype",
-    "vagrant",
-    "vagrant-manager",
     "ngrok",
     "licecap"
   ],
