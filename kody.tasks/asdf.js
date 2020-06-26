@@ -15,7 +15,11 @@ const task = {
       reject(new Error('NO ASDF INSTALLED'));
     } else {
       plugins.forEach(element => {
-        info(log(`install plugin ${element.technology}`));
+	if (element.openPgp) {
+	  info(log(`install openPGP for plugin ${element.technology}`));
+          shell.exec(element.openPgp);
+	}
+	info(log(`install plugin ${element.technology}`));
         shell.exec(`asdf plugin-add ${element.technology} ${element.url}`);
 
         element.versions.forEach(version => {
