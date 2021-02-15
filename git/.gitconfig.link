@@ -6,7 +6,7 @@
 [credential]
   helper = osxkeychain
 [core]
-	excludesfile = /Users/gvlekke/.gitignore
+	excludesfile = /Users/glennvlekke/.gitignore_global
 [push]
   default = simple
 [difftool "sourcetree"]
