@@ -76,10 +76,10 @@ plugins=(
 	node
 	docker-compose
 	docker-machine
+	zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
-echo -e "\n. $(brew --prefix asdf)/asdf.sh" >> ~/.zshrc
 . /usr/local/opt/asdf/asdf.sh
 
 
@@ -137,5 +137,3 @@ terminate(){
   echo "terminating "$port
   lsof -P | grep ':'$port | awk '{print $2}' | xargs kill -9
 }
-
-. /usr/local/opt/asdf/asdf.sh
