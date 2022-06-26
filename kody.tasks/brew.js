@@ -40,7 +40,7 @@ const task = {
     }
     if (casks && casks.length > 0) {
       info(log('Installing casks'))
-      shell.exec(`brew cask install ${casks.join(' ')}`)
+      shell.exec(`brew install ${casks.join(' ')}`)
       info(log('Brew casks installed'))
     } else {
       info(log('No brew casks to install'))

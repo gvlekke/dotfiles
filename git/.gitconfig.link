@@ -2,11 +2,11 @@
 #
 [user]
 	name = Glenn Vlekke
-	email = g.vlekke@sping.nl
+	email = glenn.vlekke@divotion.com
 [credential]
   helper = osxkeychain
 [core]
-	excludesfile = /Users/glennvlekke/.gitignore_global
+	excludesfile = /Users/gvlekke/.gitignore_global
 [push]
   default = simple
 [difftool "sourcetree"]

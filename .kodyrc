@@ -12,31 +12,30 @@
     "maven",
     "asdf",
     "coreutils",
-    "gpg"
+    "gpg",
+    "wakeonlan"
   ],
   "brew_casks": [
     "slack",
     "spotify",
     "visual-studio-code",
-    "zoomus",
+    "zoom",
     "rectangle",
     "cyberduck",
     "dbeaver-community",
     "docker",
     "kitematic",
-    "harvest",
     "imageoptim",
-    "macpass",
     "sourcetree",
     "tunnelblick",
     "vlc",
     "youtube-to-mp3",
-    "zeplin",
     "time-out",
     "adoptopenjdk",
     "skype",
     "ngrok",
-    "licecap"
+    "licecap",
+    "google-chrome" 
   ],
   "osx_script": "osx/set_default.sh",
   "npm_list": [
