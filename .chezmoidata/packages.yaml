@@ -7,6 +7,8 @@ packages:
     casks:
     - 'google-chrome'
     - 'slack'
+    - 'microsoft-teams'
+    - 'signal'
     - 'spotify'
     - 'visual-studio-code'
     - 'cyberduck'
