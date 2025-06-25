@@ -131,3 +131,15 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 #RWS
 export PATH="$HOME/projects/rws/grs-toolbox/svmctl:$PATH"
 # export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+#RWS
+export PATH="$HOME/projects/rws/grs-toolbox:$PATH"
+# export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# ASDF
+. "/opt/homebrew/opt/asdf/libexec/asdf.sh"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
+
+### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
+export PATH="/Users/gvlekke/.rd/bin:$PATH"
+### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)

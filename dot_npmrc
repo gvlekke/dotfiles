@@ -1,7 +1,0 @@
-# RWS
-@ivs:registry=https://nexus.svm.rws.nl/repository/ivs-next/
-@ops:registry=https://nexus.svm.rws.nl/repository/npmjs-private/
-@ort:registry=https://nexus.svm.rws.nl/repository/npmjs-private/
-@grs:registry=https://nexus.svm.rws.nl/repository/npmjs-private/
-@cov:registry=https://nexus.svm.rws.nl/repository/npmjs-private/
-# legacy-peer-deps=true
