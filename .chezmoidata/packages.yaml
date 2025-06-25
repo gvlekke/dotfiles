@@ -17,3 +17,4 @@ packages:
     - 'licecap'
     - 'ollama'
     - 'adobe-creative-cloud'
+    - 'warp'
